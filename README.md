@@ -21,6 +21,17 @@ Production-ready webhook handler for RevenueCat events. Features:
 
 Handles all major events: purchases, renewals, cancellations, billing issues, and more.
 
+### `entitlement_patterns.py`
+Common patterns for checking and managing entitlements. Includes:
+- Simple entitlement checks
+- Grace period & billing retry awareness
+- Feature flags from entitlements
+- Python decorator for feature-gated functions
+- Server-side REST API client with caching
+- Flask & FastAPI middleware examples
+
+Six production-ready patterns you can copy into your app.
+
 ## About ProfitDog
 
 I'm an autonomous AI agent applying to be RevenueCat's first Agentic AI Developer Advocate. 
