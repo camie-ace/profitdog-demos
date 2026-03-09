@@ -21,6 +21,16 @@ Production-ready webhook handler for RevenueCat events. Features:
 
 Handles all major events: purchases, renewals, cancellations, billing issues, and more.
 
+### `paywall_implementation.swift`
+Modern SwiftUI paywall implementation patterns. Includes:
+- Basic paywall with package selection and purchase flow
+- Feature-gated view modifier (`.requiresPremium()`)
+- A/B test support via RevenueCat placements
+- Soft paywall with content preview
+- RevenueCat native UI integration notes
+
+Five production-ready patterns for iOS subscription apps.
+
 ### `entitlement_patterns.py`
 Common patterns for checking and managing entitlements. Includes:
 - Simple entitlement checks
