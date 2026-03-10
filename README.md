@@ -31,6 +31,19 @@ Modern SwiftUI paywall implementation patterns. Includes:
 
 Five production-ready patterns for iOS subscription apps.
 
+### `subscription_analytics.py`
+Analytics toolkit for understanding your subscription metrics. Includes:
+- MRR history and trend analysis
+- Churn breakdown (voluntary vs involuntary)
+- Trial-to-paid conversion funnel
+- Revenue by product breakdown
+- Cohort retention analysis
+- LTV calculation (simple and discounted)
+- Quick health check function
+- Human-readable summary report generator
+
+Practical metrics every subscription app should track.
+
 ### `entitlement_patterns.py`
 Common patterns for checking and managing entitlements. Includes:
 - Simple entitlement checks
