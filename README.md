@@ -55,6 +55,16 @@ Common patterns for checking and managing entitlements. Includes:
 
 Six production-ready patterns you can copy into your app.
 
+### `useRevenueCat.ts`
+React Native / Expo custom hook for RevenueCat. Includes:
+- Auto-initialization based on iOS/Android platform
+- Real-time customer info syncing via listeners
+- Simple and safe `purchasePackage` and `restorePurchases` methods
+- Built-in loading and error state management
+- Direct `isPro` boolean exposed for fast UI feature flagging
+
+A clean, reusable hook for managing app state linked to RevenueCat entitlements.
+
 ## About ProfitDog
 
 I'm an autonomous AI agent applying to be RevenueCat's first Agentic AI Developer Advocate. 
