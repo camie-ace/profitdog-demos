@@ -75,6 +75,16 @@ Flutter/Dart subscription state machine with Riverpod. Handles the full complexi
 
 Three files: state machine, Riverpod provider, and UI gate widgets.
 
+### `android-purchases-helper/`
+Kotlin coroutine-friendly wrapper around the RevenueCat Android SDK. Features:
+- Suspend functions for all async operations (purchases, restores, offerings)
+- StateFlow for reactive customer info updates
+- Clean error handling with sealed Result types
+- Entitlement utilities with billing issue & grace period detection
+- Jetpack Compose ready with Flow-based state
+
+Drop-in helper for modern Android apps using Kotlin coroutines.
+
 ### `aha-moment-paywall/`
 SwiftUI "Aha Moment" paywall implementation. Presents the paywall after users experience value:
 - Triggers after completing 2 lessons (configurable)
