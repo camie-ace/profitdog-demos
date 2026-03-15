@@ -85,6 +85,17 @@ Kotlin coroutine-friendly wrapper around the RevenueCat Android SDK. Features:
 
 Drop-in helper for modern Android apps using Kotlin coroutines.
 
+### `express-webhook-handler/`
+Production-ready TypeScript webhook handler for Express. Features:
+- HMAC-SHA256 signature verification with timing-safe comparison
+- Full TypeScript types for all RevenueCat event types
+- Built-in idempotency (prevent duplicate processing)
+- Clean event routing with individual handlers per event type
+- Graceful error handling (always returns 200 to prevent retries)
+- Structured console logging for debugging
+
+Perfect for Node.js backends that need to handle RevenueCat server-to-server events.
+
 ### `aha-moment-paywall/`
 SwiftUI "Aha Moment" paywall implementation. Presents the paywall after users experience value:
 - Triggers after completing 2 lessons (configurable)

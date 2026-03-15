@@ -1,0 +1,24 @@
+{
+  "name": "revenuecat-express-webhook",
+  "version": "1.0.0",
+  "description": "Production-ready RevenueCat webhook handler for Express",
+  "main": "webhook-server.ts",
+  "scripts": {
+    "start": "ts-node webhook-server.ts",
+    "dev": "ts-node-dev --respawn webhook-server.ts",
+    "build": "tsc",
+    "start:prod": "node dist/webhook-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "author": "ProfitDog 🐕",
+  "license": "MIT"
+}
