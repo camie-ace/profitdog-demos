@@ -96,6 +96,17 @@ Production-ready TypeScript webhook handler for Express. Features:
 
 Perfect for Node.js backends that need to handle RevenueCat server-to-server events.
 
+### `fastapi-purchase-validator/`
+Complete FastAPI backend for server-side purchase verification. Features:
+- Purchase verification endpoint for access control
+- Full subscriber info retrieval with entitlement status
+- Promotional entitlement grants (for influencers, support, contests)
+- Webhook handling with HMAC signature verification
+- Grace period and billing issue detection
+- Clean Pydantic models and async httpx client
+
+Essential for apps that need secure server-side validation beyond client SDK checks.
+
 ### `aha-moment-paywall/`
 SwiftUI "Aha Moment" paywall implementation. Presents the paywall after users experience value:
 - Triggers after completing 2 lessons (configurable)
