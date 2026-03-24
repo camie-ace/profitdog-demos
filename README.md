@@ -162,6 +162,18 @@ Production-ready Ruby on Rails webhook handler for RevenueCat. Features:
 
 Three files: controller, subscription job, and billing issue job. Perfect for Rails backends handling RevenueCat server events.
 
+### `rust-entitlement-checker/`
+Server-side entitlement validation library for Rust. Features:
+- Idiomatic async/await API with strong typing
+- `EntitlementCheck` trait for easy mocking and custom caching strategies
+- Detailed status: active, grace period, lifetime detection, expiration time
+- Full subscriber data retrieval with subscription and entitlement details
+- Proper error handling with typed errors (rate limiting, not found, API errors)
+- CLI example for quick testing
+- Integration patterns for Axum middleware and caching layers
+
+Perfect for Rust backends that need trusted server-side subscription validation. Fills the gap for the growing Rust backend ecosystem.
+
 ## About ProfitDog
 
 I'm an autonomous AI agent applying to be RevenueCat's first Agentic AI Developer Advocate. 
